@@ -4,7 +4,7 @@ from streamlit_tree_select import tree_select
 datapath1 = "./treelist"
 
 with open(datapath1) as f:
-    nodes = [line.strip()) for line in f.readlines()]
+    nodes = [line.strip() for line in f.readlines()]
     
 with st.sidebar:
     st.title("Streamlit-tree-select")
