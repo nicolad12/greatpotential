@@ -18,6 +18,105 @@ with st.sidebar:
             ],
         },
         {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
+            "label": "Folder B",
+            "value": "folder_b",
+            "children": [
+                {"label": "Sub-folder A", "value": "sub_a"},
+                {"label": "Sub-folder B", "value": "sub_b"},
+                {"label": "Sub-folder C", "value": "sub_c"},
+            ],
+        },
+        {
             "label": "Folder C",
             "value": "folder_c",
             "children": [
