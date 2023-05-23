@@ -1,12 +1,2 @@
-[
-        {"label": "Folder A", "value": "folder_a"},
-        {
-            "label": "Folder B",
-            "value": "folder_b",
-            "children": [
-                {"label": "Sub-folder A", "value": "sub_a"},
-                {"label": "Sub-folder B", "value": "sub_b"},
-                {"label": "Sub-folder C", "value": "sub_c"},
-            ],
-        }
-]
+{"label": "Folder A", "value": "folder_a"},
+{"label": "Folder B", "value": "folder_b","children": [{"label": "Sub-folder A", "value": "sub_a"},{"label": "Sub-folder B", "value": "sub_b"},{"label": "Sub-folder C", "value": "sub_c"},]}
