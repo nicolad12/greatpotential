@@ -1,4 +1,4 @@
-
+[
         {"label": "Folder A", "value": "folder_a"},
         {
             "label": "Folder B",
@@ -9,3 +9,4 @@
                 {"label": "Sub-folder C", "value": "sub_c"},
             ],
         }
+]
