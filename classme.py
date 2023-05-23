@@ -14,5 +14,5 @@ with st.sidebar:
     st.title("Streamlit-tree-select")
     st.subheader("A simple and elegant checkbox tree for Streamlit.")
  
-    return_select = tree_select(nodes)
+    return_select = tree_select(lines)
     st.write(return_select)
