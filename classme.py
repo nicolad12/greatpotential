@@ -1,9 +1,19 @@
 import streamlit as st
 from streamlit_tree_select import tree_select
 
+datapath1 = "./"
+
+# df = pd.read_csv(datapath1, index_col=0)
+# df = df[["Time", "ProductId", "UserId", "Score", "Summary", "Text"]]
+# df = df.dropna()
+
+
+
 with st.sidebar:
     st.title("Streamlit-tree-select")
     st.subheader("A simple and elegant checkbox tree for Streamlit.")
+    
+    
 
     # Create nodes to display
     nodes = [
@@ -125,7 +135,13 @@ with st.sidebar:
                     "label": "Sub-folder E",
                     "value": "sub_e",
                     "children": [
-                        {"label": "Sub-sub-folder A", "value": "sub_sub_a"},
+                        {"label": "Sub-sub-folder A", 
+                         "value": "sub_sub_a",
+                         "children": [
+                        {"label": "Sub-sub-folder A", "value": "sub_sub_sub_a"},
+                        {"label": "Sub-sub-folder B", "value": "sub_sub_sub_b"},
+                    ],
+                        },
                         {"label": "Sub-sub-folder B", "value": "sub_sub_b"},
                     ],
                 },
