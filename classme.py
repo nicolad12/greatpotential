@@ -1,10 +1,15 @@
 import streamlit as st
+import json
 from streamlit_tree_select import tree_select
 
 datapath1 = "./treelist"
 
+# reading the data from the file
 with open(datapath1) as f:
-    nodes = [line.strip() for line in f.readlines()]
+    data = f.read()
+     
+# reconstructing the data as a dictionary
+nodes = json.loads(data)
     
 with st.sidebar:
     st.title("Streamlit-tree-select")
