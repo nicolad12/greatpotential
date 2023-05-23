@@ -1,3 +1,4 @@
+{
 [
         {"label": "Folder A", "value": "folder_a"},
         {
@@ -10,3 +11,4 @@
             ],
         },
 ]
+}
