@@ -4,13 +4,12 @@ from streamlit_tree_select import tree_select
 
 datapath1 = "./treelist"
 
-# reading the data from the file
-with open(datapath1) as f:
-    data = f.read()
+lines = []
+with open(datapath1) as file:
+    for line in file: 
+        line = line.strip() #or some other preprocessing
+        lines.append(line) #storing everything in memory!
      
-# reconstructing the data as a dictionary
-nodes = json.loads(data)
-    
 with st.sidebar:
     st.title("Streamlit-tree-select")
     st.subheader("A simple and elegant checkbox tree for Streamlit.")
